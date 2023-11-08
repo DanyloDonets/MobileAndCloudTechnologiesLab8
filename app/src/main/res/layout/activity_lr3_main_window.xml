@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="donets.danylo.mobileandcloudtechnologies.lab8.LR.LR3.LR3MainWindow">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Lab3 to android"
+        android:textSize="48sp"
+        android:paddingTop="100sp"
+
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/Task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="40dp"
+        android:text="Task1"
+        />
+
+    <Button
+        android:id="@+id/Task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Task1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Task2"
+        />
+
+    <Button
+        android:id="@+id/Task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Task2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Task3"
+        />
+
+    <Button
+        android:id="@+id/Task4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Task3"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Task4"
+        />
+
+
+
+
+</RelativeLayout>

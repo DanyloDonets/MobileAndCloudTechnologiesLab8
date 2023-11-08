@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LR.LR3.LR3Task3"
+    android:orientation="vertical">
+
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:shrinkColumns="*"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"/>
+
+    <EditText
+        android:id="@+id/firstRowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1st Row"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/secondRowText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="2nd Row"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random Fill"
+        android:onClick="randomFillMatrix"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Rows"
+        android:onClick="changeRows"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

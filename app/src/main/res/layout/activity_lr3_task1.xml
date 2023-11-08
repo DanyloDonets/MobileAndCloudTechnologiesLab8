@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LR.LR3.LR3Task1">
+
+
+
+    <EditText
+        android:id="@+id/xText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:hint="X" />
+
+    <EditText
+        android:id="@+id/yText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Y" />
+
+    <EditText
+        android:id="@+id/zText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Z" />
+
+
+    <ImageView
+        android:id="@+id/imageA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/task1_a"
+        android:layout_below="@id/zText"
+        />
+
+    <ImageView
+        android:id="@+id/imageB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/task1_b"
+        android:layout_below="@id/imageA"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/aLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="= 0"
+        android:textSize="18sp"
+        android:layout_below="@+id/zText"
+        android:layout_toRightOf="@+id/imageA"/>
+
+
+    <TextView
+        android:id="@+id/bLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageA"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="= 0"
+        android:textSize="18sp"
+
+        android:layout_toRightOf="@+id/imageB"/>
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Reset" />
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+

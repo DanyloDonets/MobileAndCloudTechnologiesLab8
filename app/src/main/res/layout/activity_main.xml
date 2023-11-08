@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="donets.danylo.mobileandcloudtechnologies.lab8.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="LAB8"
+        android:textSize="48sp"
+       android:paddingTop="40sp"
+
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text"
+        android:text="developed by Donets Danylo 316st"
+        android:textSize="24sp"
+
+
+        />
+
+
+
+   <Button
+       android:id="@+id/LR1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/text2"
+       android:paddingTop="20dp"
+       android:text="Lab1"
+       />
+
+    <Button
+        android:id="@+id/LR2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LR1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Lab2"
+        />
+
+    <Button
+        android:id="@+id/LR3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LR2"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Lab3"
+        />
+
+    <Button
+        android:id="@+id/LR4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LR3"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Lab4"
+        />
+
+    <Button
+        android:id="@+id/LR5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LR4"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Lab5"
+        />
+
+
+</RelativeLayout>

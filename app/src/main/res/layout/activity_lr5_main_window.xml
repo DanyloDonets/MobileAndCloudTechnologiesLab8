@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="donets.danylo.mobileandcloudtechnologies.lab8.LR.LR5.LR5MainWindow">
+
+    <TextView
+        android:id="@+id/labLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab 5"
+        android:textSize="60sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/wordLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/labLbl"
+        android:text="Word"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/wordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@+id/wordLbl"
+        android:layout_below="@id/labLbl"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+
+
+
+        />
+    
+    <TextView
+        android:id="@+id/newWordLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wordLbl"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15sp"
+        android:text="New word"
+        android:textSize="30sp"
+        />
+
+
+    <EditText
+        android:id="@+id/newWordEdt"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_toRightOf="@+id/newWordLbl"
+        android:layout_below="@id/wordEdt"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="20sp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:editable="false"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="donets.danylo.mobileandcloudtechnologies.lab8.LR.LR2.LR2MainWindow">
+
+    <TextView
+        android:id="@+id/lblWriteXY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Write X Y Z (true or false)"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:layout_below="@id/lblWriteXY" />
+
+    <CheckBox
+        android:id="@+id/checkY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y"
+        android:layout_below="@id/checkX" />
+
+    <CheckBox
+        android:id="@+id/checkZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z"
+        android:layout_below="@id/checkY" />
+
+    <Button
+        android:id="@+id/countBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:layout_below="@id/checkZ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_below="@id/countBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/task1Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X or Y and !Z"
+        android:layout_below="@id/clearBtn"
+        android:layout_marginTop="16dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/task2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!X and !Y"
+        android:layout_below="@id/task1Label"
+        android:layout_marginTop="8dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/task3Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!(X and Z) or Y"
+        android:layout_below="@id/task2Label"
+        android:layout_marginTop="8dp"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/solution1Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/clearBtn"
+        android:layout_toRightOf="@+id/task1Label"/>
+
+    <EditText
+        android:id="@+id/solution2Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solution1Text"
+        android:layout_marginStart="16dp"
+        android:layout_toRightOf="@+id/task2Label"
+        android:layout_marginTop="8dp"
+       />
+
+    <EditText
+        android:id="@+id/solution3Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solution2Text"
+        android:layout_marginStart="16dp"
+       android:layout_toRightOf="@id/task3Label"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
